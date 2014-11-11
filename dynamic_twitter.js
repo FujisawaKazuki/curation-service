@@ -63,7 +63,7 @@ function showList(data) {
 setInterval(function(){
     //オプションとコールバック関数の指定
     //var content = {count: "10", callback: "showList"};
-    var content = {lang:"ja",q:"%23soccerjikken",count: "10", callback: "showList"}
+    var content = {lang:"ja",q:"%23abcdef",count: "10", callback: "showList"}
     //Twitter APIの呼び出し
     twitter.get("https://api.twitter.com/1.1/search/tweets.json", content)
 },10000);
